@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, User, Bell, Sun, Moon, Clock } from 'lucide-react';
 import Link from 'next/link';
+import AIAssistant from '../app/components/AIAssistant';
 
 const Page = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -277,7 +278,7 @@ const Page = () => {
         About Us
       </button>
       </Link>
-      
+      <AIAssistant />
     </div>
     
   </div>
